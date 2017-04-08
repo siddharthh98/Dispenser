@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dispenser.MainActivity">
+
+    <TextView
+        android:id="@+id/set_crop"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorCrop"
+        android:text="Set Crop"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:id="@+id/set_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorAlarm"
+        android:text="Set Alarm"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceLarge"/>
+</LinearLayout>
